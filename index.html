@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <select name="meses" id="m1" size="12">
+
+        <option value="0">Enero</option> <!-- value se usara para vincular el select con el arraya de objetos-->
+        <option value="1">Febrero</option> <!-- Esta información estara en un array, por eso usamos nuemeros como value-->
+        <option value="2">Marzo</option>
+        <option value="3">Abril</option>
+        <option value="4">Mayo</option>
+        <option value="5">Junio</option>
+        <option value="6">Julio</option>
+        <option value="7">Agosto</option>
+        <option value="8">Septiembre</option>
+        <option value="9">Octubre</option>
+        <option value="10">Noviembre</option>
+        <option value="11">Diciembre</option>
+
+    </select>
+
+    <button type="button" id="b1" onclick="mostrar()">click</button>
+
+    <ol style="list-style-type: disc;">   <!-- list-style-type: disc; para cambiar numeros por discos -->
+
+        <li id="dias"> </li>
+        <li id="trimestre"> </li>
+        <li id="estacion"> </li>
+        <li id="catalan"> </li>
+        <li id="ingles"> </li>
+        <li id="frances"> </li>
+
+    </ol>
+
+    <script src="js/js.js"></script>
+
+</body>
+
+</html>
